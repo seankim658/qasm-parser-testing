@@ -1,0 +1,267 @@
+{
+  "summary": {
+    "total_files": 11,
+    "total_parsers": 3,
+    "iterations_per_test": 10
+  },
+  "parser_stats": {
+    "qiskit_antlr": {
+      "success_rate": 1.0,
+      "avg_time": 0.008613994500030293,
+      "min_time": 0.0018216845999631914,
+      "max_time": 0.030113482099841347,
+      "total_runs": 11,
+      "successful_runs": 11
+    },
+    "rust": {
+      "success_rate": 0.18181818181818182,
+      "avg_time": 0.0006239621000531769,
+      "min_time": 0.0006055691999790724,
+      "max_time": 0.0006423550001272815,
+      "total_runs": 11,
+      "successful_runs": 2
+    },
+    "qasm_ts": {
+      "success_rate": 1.0,
+      "avg_time": 0.0008908423454737534,
+      "min_time": 0.00024659390001033896,
+      "max_time": 0.004127409000102489,
+      "total_runs": 11,
+      "successful_runs": 11
+    }
+  },
+  "file_stats": {
+    "msd.qasm": {
+      "parser_results": {
+        "qiskit_antlr": {
+          "time": 0.030113482099841347,
+          "success": true,
+          "error": null
+        },
+        "rust": {
+          "time": null,
+          "success": false,
+          "error": "Parsing failed: Error: Parsing failed\n\nTraceback (most recent call last):\n  File \"/home/seank/projects/personal/qasm-parser-testing/run_benchmarks.py\", line 58, in benchmark_parser\n    parser_func(qasm_content)\n  File \"/home/seank/projects/personal/qasm-parser-testing/parsers/rust_qasm.py\", line 30, in parse\n    raise ValueError(f\"Parsing failed: {result.stderr}\")\nValueError: Parsing failed: Error: Parsing failed\n\n"
+        },
+        "qasm_ts": {
+          "time": 0.004127409000102489,
+          "success": true,
+          "error": null
+        }
+      },
+      "fastest_parser": "qasm_ts",
+      "success_rate": 0.6666666666666666
+    },
+    "inverseqft1.qasm": {
+      "parser_results": {
+        "qiskit_antlr": {
+          "time": 0.009503252200192946,
+          "success": true,
+          "error": null
+        },
+        "rust": {
+          "time": null,
+          "success": false,
+          "error": "Parsing failed: Error: Parsing failed\n\nTraceback (most recent call last):\n  File \"/home/seank/projects/personal/qasm-parser-testing/run_benchmarks.py\", line 58, in benchmark_parser\n    parser_func(qasm_content)\n  File \"/home/seank/projects/personal/qasm-parser-testing/parsers/rust_qasm.py\", line 30, in parse\n    raise ValueError(f\"Parsing failed: {result.stderr}\")\nValueError: Parsing failed: Error: Parsing failed\n\n"
+        },
+        "qasm_ts": {
+          "time": 0.0007147378000809113,
+          "success": true,
+          "error": null
+        }
+      },
+      "fastest_parser": "qasm_ts",
+      "success_rate": 0.6666666666666666
+    },
+    "qft.qasm": {
+      "parser_results": {
+        "qiskit_antlr": {
+          "time": 0.0038435808000940597,
+          "success": true,
+          "error": null
+        },
+        "rust": {
+          "time": 0.0006423550001272815,
+          "success": true,
+          "error": null
+        },
+        "qasm_ts": {
+          "time": 0.000327823299994634,
+          "success": true,
+          "error": null
+        }
+      },
+      "fastest_parser": "qasm_ts",
+      "success_rate": 1.0
+    },
+    "alignment.qasm": {
+      "parser_results": {
+        "qiskit_antlr": {
+          "time": 0.0018216845999631914,
+          "success": true,
+          "error": null
+        },
+        "rust": {
+          "time": 0.0006055691999790724,
+          "success": true,
+          "error": null
+        },
+        "qasm_ts": {
+          "time": 0.00024659390001033896,
+          "success": true,
+          "error": null
+        }
+      },
+      "fastest_parser": "qasm_ts",
+      "success_rate": 1.0
+    },
+    "adder.qasm": {
+      "parser_results": {
+        "qiskit_antlr": {
+          "time": 0.008528853000098025,
+          "success": true,
+          "error": null
+        },
+        "rust": {
+          "time": null,
+          "success": false,
+          "error": "Parsing failed: Error: Parsing failed\n\nTraceback (most recent call last):\n  File \"/home/seank/projects/personal/qasm-parser-testing/run_benchmarks.py\", line 58, in benchmark_parser\n    parser_func(qasm_content)\n  File \"/home/seank/projects/personal/qasm-parser-testing/parsers/rust_qasm.py\", line 30, in parse\n    raise ValueError(f\"Parsing failed: {result.stderr}\")\nValueError: Parsing failed: Error: Parsing failed\n\n"
+        },
+        "qasm_ts": {
+          "time": 0.0005879161997654591,
+          "success": true,
+          "error": null
+        }
+      },
+      "fastest_parser": "qasm_ts",
+      "success_rate": 0.6666666666666666
+    },
+    "varteleport.qasm": {
+      "parser_results": {
+        "qiskit_antlr": {
+          "time": 0.005637370599833958,
+          "success": true,
+          "error": null
+        },
+        "rust": {
+          "time": null,
+          "success": false,
+          "error": "Parsing failed: Error: Parsing failed\n\nTraceback (most recent call last):\n  File \"/home/seank/projects/personal/qasm-parser-testing/run_benchmarks.py\", line 58, in benchmark_parser\n    parser_func(qasm_content)\n  File \"/home/seank/projects/personal/qasm-parser-testing/parsers/rust_qasm.py\", line 30, in parse\n    raise ValueError(f\"Parsing failed: {result.stderr}\")\nValueError: Parsing failed: Error: Parsing failed\n\n"
+        },
+        "qasm_ts": {
+          "time": 0.0004434335005498724,
+          "success": true,
+          "error": null
+        }
+      },
+      "fastest_parser": "qasm_ts",
+      "success_rate": 0.6666666666666666
+    },
+    "ipe.qasm": {
+      "parser_results": {
+        "qiskit_antlr": {
+          "time": 0.0037930979004158873,
+          "success": true,
+          "error": null
+        },
+        "rust": {
+          "time": null,
+          "success": false,
+          "error": "Parsing failed: Error: Parsing failed\n\nTraceback (most recent call last):\n  File \"/home/seank/projects/personal/qasm-parser-testing/run_benchmarks.py\", line 58, in benchmark_parser\n    parser_func(qasm_content)\n  File \"/home/seank/projects/personal/qasm-parser-testing/parsers/rust_qasm.py\", line 30, in parse\n    raise ValueError(f\"Parsing failed: {result.stderr}\")\nValueError: Parsing failed: Error: Parsing failed\n\n"
+        },
+        "qasm_ts": {
+          "time": 0.0004531955999482307,
+          "success": true,
+          "error": null
+        }
+      },
+      "fastest_parser": "qasm_ts",
+      "success_rate": 0.6666666666666666
+    },
+    "qec.qasm": {
+      "parser_results": {
+        "qiskit_antlr": {
+          "time": 0.004587069200169935,
+          "success": true,
+          "error": null
+        },
+        "rust": {
+          "time": null,
+          "success": false,
+          "error": "Parsing failed: Error: Parsing failed\n\nTraceback (most recent call last):\n  File \"/home/seank/projects/personal/qasm-parser-testing/run_benchmarks.py\", line 58, in benchmark_parser\n    parser_func(qasm_content)\n  File \"/home/seank/projects/personal/qasm-parser-testing/parsers/rust_qasm.py\", line 30, in parse\n    raise ValueError(f\"Parsing failed: {result.stderr}\")\nValueError: Parsing failed: Error: Parsing failed\n\n"
+        },
+        "qasm_ts": {
+          "time": 0.0004329379997216165,
+          "success": true,
+          "error": null
+        }
+      },
+      "fastest_parser": "qasm_ts",
+      "success_rate": 0.6666666666666666
+    },
+    "dd.qasm": {
+      "parser_results": {
+        "qiskit_antlr": {
+          "time": 0.0036133363999397263,
+          "success": true,
+          "error": null
+        },
+        "rust": {
+          "time": null,
+          "success": false,
+          "error": "Parsing failed: Error: Parsing failed\n\nTraceback (most recent call last):\n  File \"/home/seank/projects/personal/qasm-parser-testing/run_benchmarks.py\", line 58, in benchmark_parser\n    parser_func(qasm_content)\n  File \"/home/seank/projects/personal/qasm-parser-testing/parsers/rust_qasm.py\", line 30, in parse\n    raise ValueError(f\"Parsing failed: {result.stderr}\")\nValueError: Parsing failed: Error: Parsing failed\n\n"
+        },
+        "qasm_ts": {
+          "time": 0.0004749070998514071,
+          "success": true,
+          "error": null
+        }
+      },
+      "fastest_parser": "qasm_ts",
+      "success_rate": 0.6666666666666666
+    },
+    "inverseqft2.qasm": {
+      "parser_results": {
+        "qiskit_antlr": {
+          "time": 0.0051316398999915695,
+          "success": true,
+          "error": null
+        },
+        "rust": {
+          "time": null,
+          "success": false,
+          "error": "Parsing failed: Error: Parsing failed\n\nTraceback (most recent call last):\n  File \"/home/seank/projects/personal/qasm-parser-testing/run_benchmarks.py\", line 58, in benchmark_parser\n    parser_func(qasm_content)\n  File \"/home/seank/projects/personal/qasm-parser-testing/parsers/rust_qasm.py\", line 30, in parse\n    raise ValueError(f\"Parsing failed: {result.stderr}\")\nValueError: Parsing failed: Error: Parsing failed\n\n"
+        },
+        "qasm_ts": {
+          "time": 0.0005248270999800297,
+          "success": true,
+          "error": null
+        }
+      },
+      "fastest_parser": "qasm_ts",
+      "success_rate": 0.6666666666666666
+    },
+    "scqec.qasm": {
+      "parser_results": {
+        "qiskit_antlr": {
+          "time": 0.01818057279979257,
+          "success": true,
+          "error": null
+        },
+        "rust": {
+          "time": null,
+          "success": false,
+          "error": "Parsing failed: Error: Parsing failed\n\nTraceback (most recent call last):\n  File \"/home/seank/projects/personal/qasm-parser-testing/run_benchmarks.py\", line 58, in benchmark_parser\n    parser_func(qasm_content)\n  File \"/home/seank/projects/personal/qasm-parser-testing/parsers/rust_qasm.py\", line 30, in parse\n    raise ValueError(f\"Parsing failed: {result.stderr}\")\nValueError: Parsing failed: Error: Parsing failed\n\n"
+        },
+        "qasm_ts": {
+          "time": 0.001465484300206299,
+          "success": true,
+          "error": null
+        }
+      },
+      "fastest_parser": "qasm_ts",
+      "success_rate": 0.6666666666666666
+    }
+  },
+  "detailed_results": []
+}

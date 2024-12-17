@@ -1,0 +1,5 @@
+qiskit
+qiskit-qasm3-import
+pytest-benchmark
+numpy
+nodejs

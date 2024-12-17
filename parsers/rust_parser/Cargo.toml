@@ -1,0 +1,10 @@
+[package]
+name = "rust_parser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+oq3_lexer = { git = "https://github.com/Qiskit/openqasm3_parser" }
+oq3_parser = { git = "https://github.com/Qiskit/openqasm3_parser" }
+oq3_syntax = { git = "https://github.com/Qiskit/openqasm3_parser" }
+oq3_source_file = { git = "https://github.com/Qiskit/openqasm3_parser" }

@@ -1,0 +1,7 @@
+{
+  "name": "qasm3-parser-benchmarks",
+  "version": "1.0.0",
+  "dependencies": {
+    "qasm-ts": "^2.0.0"
+  }
+}

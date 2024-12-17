@@ -1,0 +1,6 @@
+env/
+venv/
+mypy.ini
+target/
+node_modules/
+__pycache__/
